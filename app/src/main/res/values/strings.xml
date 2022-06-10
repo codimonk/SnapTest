@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Mayo-Sample-App</string>
+    <string name="test_code_inflation" translatable="false">Test Code Inflation</string>
+    <string name="enable_dark_mode" translatable="false">Enable Dark Mode</string>
+</resources>
