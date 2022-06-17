@@ -15,7 +15,7 @@
         <activity
             android:name=".TestCodeInflationActivity"
             android:exported="false"
-            android:theme="@style/Theme.MayoSampleApp.NoActionBar" />
+            android:theme="@style/Theme.DesignSystemSampleApp" />
         <activity
             android:name=".TestActivity"
             android:exported="true">
