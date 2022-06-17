@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.design.system.sample">
+
+    <uses-sdk tools:overrideLibrary="com.design.system,com.design.token" />
 
     <application
         android:allowBackup="true"
@@ -8,7 +11,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MayoSampleApp">
+        android:theme="@style/Theme.DesignSystemSampleApp">
         <activity
             android:name=".TestCodeInflationActivity"
             android:exported="false"
